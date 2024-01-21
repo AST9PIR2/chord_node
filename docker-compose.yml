@@ -1,0 +1,20 @@
+version: '3'
+services:
+  computation-service:
+    image: mars.mci4me.at:5000/ds-student/52108897-computation-service
+    environment:
+      - LOAD_BALANCER_URL=http://localhost:8989/api
+    volumes:
+      - restserver_log:/home/dibse/pirmin/loadbalancer
+
+  load-balancer:
+    image: mars.mci4me.at:5000/ds-student/52108897-load-balancer
+    ports:
+      - "8989:8989"
+    volumes:
+      - loadbalancer_log:/home/dibse/pirmin/computation_service
+
+
+volumes:
+  loadbalancer_log:
+  restserver_log:

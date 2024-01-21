@@ -1,0 +1,25 @@
+2024-01-21 16:26:27.491 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @577ms
+2024-01-21 16:26:27.543 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.14.v20161028
+2024-01-21 16:26:27.636 [main] INFO  org.jboss.resteasy.resteasy_jaxrs.i18n - RESTEASY002225: Deploying javax.ws.rs.core.Application: class REST.server.computation.LoadBalancerApp
+2024-01-21 16:26:27.638 [main] INFO  org.jboss.resteasy.resteasy_jaxrs.i18n - RESTEASY002220: Adding singleton resource REST.server.computation.LoadbalancerService from Application class REST.server.computation.LoadBalancerApp
+2024-01-21 16:26:27.660 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2fc6f97f{/,null,AVAILABLE}
+2024-01-21 16:26:27.722 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@293a5f75{HTTP/1.1,[http/1.1]}{0.0.0.0:8989}
+2024-01-21 16:26:27.723 [main] INFO  org.eclipse.jetty.server.Server - Started @810ms
+2024-01-21 16:36:52.155 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @449ms
+2024-01-21 16:36:52.192 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.14.v20161028
+2024-01-21 16:36:52.279 [main] INFO  org.jboss.resteasy.resteasy_jaxrs.i18n - RESTEASY002225: Deploying javax.ws.rs.core.Application: class REST.server.computation.ChordNodeApp
+2024-01-21 16:36:52.281 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@386f0da3{/,null,AVAILABLE}
+2024-01-21 16:36:52.330 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@ebaa6cb{HTTP/1.1,[http/1.1]}{0.0.0.0:8991}
+2024-01-21 16:36:52.330 [main] INFO  org.eclipse.jetty.server.Server - Started @625ms
+2024-01-21 16:54:23.060 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @460ms
+2024-01-21 16:54:23.107 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.14.v20161028
+2024-01-21 16:54:23.200 [main] INFO  org.jboss.resteasy.resteasy_jaxrs.i18n - RESTEASY002225: Deploying javax.ws.rs.core.Application: class REST.server.computation.ChordNodeApp
+2024-01-21 16:54:23.202 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@386f0da3{/,null,AVAILABLE}
+2024-01-21 16:54:23.254 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@ebaa6cb{HTTP/1.1,[http/1.1]}{0.0.0.0:8991}
+2024-01-21 16:54:23.254 [main] INFO  org.eclipse.jetty.server.Server - Started @655ms
+2024-01-21 17:50:42.855 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @473ms
+2024-01-21 17:50:42.892 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.14.v20161028
+2024-01-21 17:50:42.973 [main] INFO  org.jboss.resteasy.resteasy_jaxrs.i18n - RESTEASY002225: Deploying javax.ws.rs.core.Application: class REST.server.computation.ChordNodeApp
+2024-01-21 17:50:42.974 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@386f0da3{/,null,AVAILABLE}
+2024-01-21 17:50:43.024 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@ebaa6cb{HTTP/1.1,[http/1.1]}{0.0.0.0:8991}
+2024-01-21 17:50:43.025 [main] INFO  org.eclipse.jetty.server.Server - Started @644ms
