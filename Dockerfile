@@ -1,4 +1,4 @@
-FROM mars.mci4me.at:5000/distributed_systems/ubuntu_java
+FROM openjdk:latest
 
 LABEL authors="Pirmin Aster"
 
